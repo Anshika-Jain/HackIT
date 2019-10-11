@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+         <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+         <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+
+  </head>  
+  <<body>
+	<a-scene embedded arjs="sourceType: webcam;">
+		 <a-plane src="https://cdn.glitch.com/b991bbdd-f127-4ef3-bda5-72597a17c80b%2FNORSAD-removebg-preview.png?v=1570753770220" position="-0.5 3.5 -7">
+         <a-animation attribute="scale"
+                 dur="3000"
+                 from="3 3 3"
+                 to="2 2 2"
+                 
+                 repeat="indefinite">
+       </a-animation>
+    </a-plane>
+   <a-plane src="https://cdn0.iconfinder.com/data/icons/emojis-colored-outlined-pixel-perfect/64/emoji-05-512.png" position="-0.3 1 -6 ">
+         <a-animation attribute="scale"
+                 dur="3000"
+                 from="2 2 2"
+                 to="1 1 1"
+                 
+                 repeat="indefinite">
+       </a-animation>
+    </a-plane>
+		
+      <a-sky color="white"></a-sky>
+	</a-scene>
+</body>
+
+</html>
+
