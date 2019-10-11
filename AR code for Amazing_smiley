@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+         <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+         <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+
+
+  </head>  
+  <body>
+	<a-scene embedded arjs="sourceType: webcam;">
+    
+		 <a-plane src="https://cdn0.iconfinder.com/data/icons/emojis-colored-outlined-pixel-perfect/64/emoji-15-512.png" position="0 1.5 -3" >
+         <a-animation attribute="scale"
+                 dur="3000"
+                 from="7 7 7"
+                 to="1 1 1"
+                 
+                 repeat="indefinite">
+       </a-animation>
+    </a-plane>
+		
+      <a-sky color="white"></a-sky>
+    </a-scene>
+</body>
+
+</html>
